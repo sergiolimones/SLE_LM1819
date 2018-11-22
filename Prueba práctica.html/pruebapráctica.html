@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Prueba práctica HTML</html></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <!--Texto-->
+        <p style="font-style: italic">text enfatizado</p>
+        <p><b>text en negrita</b></p>
+        <p><i>texto definición</i></p>
+        <p style="font-family: monospace">Texto códigon fuente de ordenador</p>
+        <p style="font-family:monospace">Texto ejemplo de fuenten de ordenador</p>
+        <p style="font-family:monospace">Texto de teclado</p>
+        <p style="font-style: italic">Variable</p>
+        <p>En esta línea se muestra un <del>texto tachado</del> y se simula <ins>una corrección</ins></p>
+        <p style="font-style: italic">Esto es una cita Cita</p>
+        <p><h2>Este texto es más grande</h2><h6> y este texto más grande</h6></p>
+        <p>En esta línea tenemos <sup>texto en superíndice</sup>y <sub>texto en subíndice</sub></p>
+        <pre style=>        El texto en una etiqueta "pre" mantiene los espacios y
+        saltos de línea</pre>
+
+        <!--listas-->
+        <ul style="width: 300px; height: 180px ;background-color: yellow; color: orange; text-align: center;font-size: 30px" ><b>Lista de enlaces</b>
+                
+                <li style="color: black; font-size: 20px; text-align: initial">Buscadores</li>
+                <ul style="text-align: initial">
+                    <li style="color: purple; font-size: 20px"><ins>Bing</ins></li>
+                    <li style="font-size: 20px; color: green">Google</li>
+                </ul>
+                <li style="color:black; font-size: 20px; text-align: initial" >Redes sociales</li>
+                <ul>
+                    <li style="color:red; font-size: 20px; text-align: initial"><ins>Facebook</ins></li>
+                    <li style="color:red; font-size: 20px; text-align: initial"><ins>Twitter</ins></li>
+                 </ul>
+
+        </ul>
+        <!--Encabezados--> 
+        Encabezado Izquierda
+        <div style="width: 300px; height: 230px">
+            <img src="Mapa-de-andalucia.jpg" style="width:150px; height: 150px; float:left"> La música es, según la definición etc etcetc etcetc etcetc etcetc etcetc etcetc etc
+
+        </div>
+        <!--Formulario-->
+        <form action="gestiondatos.jsp" method="GET"></form>
+            <fieldset style="text-align: center">
+                <label for="asunto">Asunto</label>
+                    <input type="text" name="asunto" id="asunto"><br>
+                <label for="primer apellido">primer apellido</label>    
+                    <input type="text" name="primer apellido" id="primer apellido"></br>
+                <label for="segundo apellido">segundo apellido</label>    
+                    <input type="text" id="segundo apellido" name="segundo apellido"/><br>
+                <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre"><br>
+                <label for="DNI/Pasaporte/N.I.E">DNI/Pasaporte/N.I.E</label>
+                    <input type="text" name="NI/Pasaporte/N.I.E" id="NI/Pasaporte/N.I.E"/> <br>
+                <label for="email">correo electrónico</label>
+                    <input type="email" name="correo electrónico" id="email"/>  <br>
+                <label for="telefono">teléfono</label>
+                    <input type="tel" id="telefono" maxlength="9"><br>
+                <label for="sobre qué">¿Sobre qué?</label>
+                    <select name="sobre qué" id="sobre qué" value="">
+                        <optgroup label="Uno">
+                            <option value="e">esto</option>
+                        </optgroup>
+                        <optgroup label="Dos">
+                            <option value="l">lo otro</option>
+                            <option value="a">aquello</option>
+                        </optgroup>
+                    </select> <br>
+                <label for="escribir">¿Qué va a escribir?</label>
+                    <select name="escribir" id="escribir" value="">
+                        <optgroup label="Uno">
+                            <option value="e">esto</option>
+                        </optgroup>
+                        <optgroup label="Dos">
+                            <option value="l">lo otro</option>
+                            <option value="a">aquello</option>
+                        </optgroup>
+                    </select> <br>
+                
+                Texto del escrito:<textarea name="texto del escrito"
+                    rows="3" cols="20"
+                    maxlength="20">
+                </textarea> <br>
+                Los datos personales facilitados son susceptibles de cesión cuando ésta sea <br>precisa para tramitar su contestación. <br>
+                
+                <label for="enviar"></label>
+                    <input type="submit" name="enviar">     
+                <!--capas-->
+                <div style="color:white;background-color: blue;white-space: initial; text-align: center"><b style="font-size: 30px">Título de la página</b></div>
+                <div style="">  </div>
+                    <div  style="color:white;background-color: green;white-space: initial; text-align: center"><b style="font-size: 30px">capa 1</div>
+                    <div style="color:white;background-color: green;white-space: initial; text-align: center"><b style="font-size: 30px">capa 2</div>
+                    <div style="color:white;background-color: green;white-space: initial; text-align: center"><b style="font-size: 30px">capa 3</div>
+                        <div style="color:white;background-color: green;white-space: initial; text-align: center"><b style="font-size: 30px">capa 4</div>
+                
+    
+    </body>
+
+
+</html>
