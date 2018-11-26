@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+          <form action="gestiondatos.jsp" method="GET"></form>
+        <fieldset>
+            <label for="nombre">Nombre de Usuario</label>
+          
+            <input type="text" value="" name="nombre" id="nombre" placeholder="nombre de Usuario" size="100" maxlength="20" pattern="[A-Z]{5}[0-9]{3}"/><br><br>
+            <input type="password" name="pass"/>
+            <br>
+            <input type="reset" value="borrar"/>
+            <br>
+            <input type="submit" value="Enviar"/>
+            <input type="button" name="boton"value="Pulsar"/>
+            <label for="pregunta">Alumno?</label>
+            <input type="radio" id="pregunta" name="pregunta"value="sí" checked="checked"/>Sí
+            <input type="radio" id="pregunta" name="pregunta" value="N" checked="checked"/>No
+            <br>
+            <label for="">Aficiones</label>
+            <input type="checkbox" name="cine" value="c"/> cine
+            <input type="checkbox" name="fútbol" value="f"/> Fútbol
+            <br>
+            <label for="provincias">Provincias</label>
+            <select name="provincias" id="provincias">
+                <option value="SE">Sevilla</option>
+                <option value="GR">Granada</option>
+            </select>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+        </form>
+        <form>
+            <input type="number" maxlength="">
+        </form>
+        <form>
+            <input type="number" min="1" max="10" required="required">
+            <input type="email"/>
+            <input type="url"/>
+            <input type="range" min="1" max="10">
+        </form>
+    </body>
+</html>
