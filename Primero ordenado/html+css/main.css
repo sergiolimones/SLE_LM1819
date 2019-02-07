@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+h1 { 
+    font: bold 20px verdana, sans-serif;
+    
+
+} 
+
+h2 {
+    font: bold 16px verdana, sans-serif;
+}
+
+header img{
+    float: left;
+}
+
+header, section, footer, aside, nav, article {
+    display: block;
+}
+nav{
+    margin-top: 50px;
+}
+
+body {
+    background-color: rgb(245, 245, 86);
+   
+}
+
+#cabezera {
+    border: 1px solid #999999;
+    background: cadetblue;
+    padding: 30px;
+    padding-bottom: 50px ;
+}
+#cabecera h1{
+    color: brown;
+}
+
+#cabecera p{
+    color: #1daa8e
+}
+
+#cabezera img{
+    float: left;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+#menu {
+    background:#62b5ec;
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    border-right: 2px solid #1172b3;
+}
+
+#seccion {
+    float:left;
+    width: 600px;
+    margin: 20px;
+}
+
+#columna {  
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    background: #bbb9b9;
+    border: 2px solid #a8a4a4;
+    position: relative;  
+    margin-left: 200px
+}
+
+
+article {
+    float: left;
+    background: #EDBB99;
+    width: 700px
+}
+article div{
+
+    border-radius: 20px 20px 20px 20px;
+    height: 370px;
+    width: 100%;
+    background-color: #DC7633
+}
+article header {
+    background-color: #E59866;
+    padding: 10px;
+    color: #2980B9
+}
+
+article#ar{
+    display: block;
+}
+
+article h2{
+    padding: 20px 0PX 20px 0px;
+    font-size: 30px;
+    color: #2980B9
+}
+
+  .imagen{
+      height: 30px;
+      width: 30px;
+      padding: 5px
+}
+  
+    .imagen1{
+        height: 300px;
+        width: 300px;
+        margin-left: -40px;
+        margin-top: 10px; 
+}
+
+blockquote{
+    float: left;
+    background: #999999
+}
+aside header{
+    
+    padding: 5px
+}
+.sig{
+    background-color: #A4A3A3;
+    color: #626567
+}
+.Curso{
+    background-color: #A4A3A3;
+    color: #626567;
+    padding: 5px
+}
+aside div li {
+    padding: 4px;
+    margin-left: 20px
+}
+footer{
+    padding: 10px
+}
+footer span{
+    color: blue
+}
